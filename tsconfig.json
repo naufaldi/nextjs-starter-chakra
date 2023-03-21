@@ -31,6 +31,9 @@
       "services/*": [
         "src/services/*"
       ],
+      "store/*":[
+        "src/store/*"
+      ],
       "~/*": ["./public/*"]
     },
     "incremental": true

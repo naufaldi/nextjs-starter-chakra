@@ -1,12 +1,15 @@
+import { Container } from '@chakra-ui/react'
 import React, { FC } from 'react'
 
 const Header: FC = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ut aliquam! Doloremque quo nobis
-      cumque rerum molestias voluptates soluta voluptatem atque accusantium? Minus ratione facilis
-      id quos voluptates alias cum!
-    </div>
+    <header>
+      <Container as="nav" maxW="1280px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic reprehenderit amet dolor.
+        Odit accusamus vero in error exercitationem, excepturi assumenda quidem reprehenderit,
+        perspiciatis dolor eveniet fugit omnis corrupti voluptas?
+      </Container>
+    </header>
   )
 }
 

@@ -1,6 +1,11 @@
 import { create } from 'zustand'
 
-export const globalStore = create((set) => ({
-  onOff: {},
+interface globalStoreProps {
+  onOff: boolean
+  setOnOff: (params: boolean) => void
+}
+
+export const globalStore = create<globalStoreProps>((set) => ({
+  onOff: false,
   setOnOff: (params: boolean) => set({ onOff: params }),
 }))
